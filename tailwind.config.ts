@@ -1,11 +1,7 @@
 import type { Config } from 'tailwindcss';
 
 const config: Config = {
-  content: [
-    './pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './components/**/*.{js,ts,jsx,tsx,mdx}',
-    './app/**/*.{js,ts,jsx,tsx,mdx}',
-  ],
+  content: ['./pages/**/*.{js,ts,jsx,tsx,mdx}', './libs/**/*.{js,ts,jsx,tsx,mdx}', './app/**/*.{js,ts,jsx,tsx,mdx}'],
   plugins: [],
   theme: {
     extend: {
@@ -18,6 +14,10 @@ const config: Config = {
         'pill-active': 'var(--active-pill-bg)',
         'pill-active-hover': 'var(--active-pill-hovered-bg)',
         'pill-hover': 'var(--pill-hovered-bg)',
+      },
+      borderColor: {
+        'outline-00': 'var(--border-primary)',
+        purple: 'var(--border-purple)',
       },
       colors: {
         'gray-00': 'var(--gray-00)',
