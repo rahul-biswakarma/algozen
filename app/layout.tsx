@@ -1,5 +1,6 @@
 import './globals.css';
 
+import clsx from 'clsx';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import { type ReactNode } from 'react';
@@ -14,7 +15,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { readonly children: React.ReactNode }): ReactNode {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={clsx(inter.className, 'bg-layer-00 text-primary')}>{children}</body>
     </html>
   );
 }

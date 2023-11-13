@@ -1,3 +1,37 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --bg-layer-00: #000000;
+  --bg-layer-01: #121314;
+  --bg-layer-02: #1f2024;
+  --bg-layer-03: #202025;
+
+  --text-00: #fefefe;
+  --text-01: #605f6d;
+  --text-02: #575662;
+
+  --active-pill-bg: #3c3b3c;
+  --active-pill-hovered-bg: ##605f6d;
+  --active-pill-border: #434449;
+
+  --pill-bg: #1f1f22;
+  --pill-hovered-bg: #2d2d2e;
+  --pill-border: #292a2e;
+
+  --purple-00: #a881e6;
+  --purple-01: #6e44b1;
+
+  --orange-00: #edba6e;
+  --orange-01: #d08e25;
+
+  --pink-00: #ed87e7;
+  --pink-01: #c248c3;
+
+  --gray-00: #9a9ab8;
+  --gray-01: #575662;
+
+  --green-00: #4ceb78;
+  --green-01: #44be7b;
+}
